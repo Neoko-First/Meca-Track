@@ -1,0 +1,17 @@
+export const MAINTENANCE_TYPES = [
+  'oil_change',
+  'tire_change',
+  'timing_belt',
+  'brake_pads',
+  'brake_discs',
+  'air_filter',
+  'cabin_filter',
+  'fuel_filter',
+  'spark_plugs',
+  'battery',
+  'coolant',
+  'brake_fluid',
+  'technical_inspection',
+  'general_revision',
+  'other',
+] as const

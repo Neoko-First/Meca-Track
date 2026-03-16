@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install*)",
+      "Bash(npm run*)",
+      "Bash(ls*)",
+      "Bash(mkdir*)",
+      "Bash(cat*)",
+      "Bash(echo*)"
+    ],
+    "deny": [
+      "Bash(rm -rf*)", // jamais sans confirmation
+      "Bash(git push --force*)", // trop risqué
+      "Bash(curl*)", // risque d'exfiltration
+      "Bash(wget*)"
+    ]
+  }
+}
